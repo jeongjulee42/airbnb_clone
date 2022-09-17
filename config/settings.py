@@ -156,3 +156,7 @@ EMAIL_HOST_PASSWORD = os.environ.get("NAVERMAIL_PASSWORD")
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False
 EMAIL_FROM = "jeongjui153@naver.com"
+
+# Auth
+
+LOGIN_URL = "/users/login/"
