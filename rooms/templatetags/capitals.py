@@ -4,5 +4,5 @@ register = template.Library()
 
 
 @register.filter
-def sexy_capitals(value):
+def capitals(value):
     return value.capitalize()
