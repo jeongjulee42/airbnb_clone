@@ -183,9 +183,7 @@ class EditPhotoView(user_mixins.LoggedInOnlyView, SuccessMessageMixin, UpdateVie
 
 class AddPhotoView(user_mixins.LoggedInOnlyView, FormView):
 
-
     template_name = "rooms/photo_create.html"
-
     form_class = forms.CreatePhotoForm
 
     def form_valid(self, form):

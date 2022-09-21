@@ -100,7 +100,6 @@ class Room(core_models.TimeStampedModel):
     def get_absolute_url(self):
         return reverse("rooms:detail", kwargs={"pk": self.pk})
 
-    
     def total_rating(self):
         all_reviews = self.reviews.all()
         all_ratings = 0
