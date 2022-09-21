@@ -3,7 +3,6 @@ from . import models
 
 
 class CreateReviewForm(forms.ModelForm):
-    
     accuracy = forms.IntegerField(max_value=5, min_value=1)
     communication = forms.IntegerField(max_value=5, min_value=1)
     cleanliness = forms.IntegerField(max_value=5, min_value=1)
@@ -22,7 +21,7 @@ class CreateReviewForm(forms.ModelForm):
             "check_in",
             "value",
         )
-        
+
     def save(self):
         review = super().save(commit=False)
         return review

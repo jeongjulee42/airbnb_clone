@@ -46,7 +46,7 @@ class ReservationDetailView(View):
             "reservations/detail.html",
             {"reservation": reservation, "form": form},
         )
-        
+
 
 def edit_reservation(request, pk, verb):
     reservation = models.Reservation.objects.get_or_none(pk=pk)
