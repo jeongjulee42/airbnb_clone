@@ -60,7 +60,7 @@ msgstr "가입"
 
 #: templates/rooms/room_detail.html:31
 msgid "Save to Favourites"
-msgstr "목록 저장"
+msgstr "즐겨찾기"
 
 #: templates/rooms/room_list.html:26
 #, python-format
