@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-23 11:40+0900\n"
+"POT-Creation-Date: 2022-09-23 12:21+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,6 +29,38 @@ msgstr "복제하지마세요"
 #: templates/partials/footer.html:7
 msgid "All rights reserved"
 msgstr "판권소유"
+
+#: templates/partials/nav.html:7
+msgid "Stop hosting"
+msgstr "호스팅 중지"
+
+#: templates/partials/nav.html:9
+msgid "Start hosting"
+msgstr "호스팅 시작"
+
+#: templates/partials/nav.html:15
+msgid "Create Room"
+msgstr "방 생성"
+
+#: templates/partials/nav.html:18
+msgid "Profile"
+msgstr "프로필"
+
+#: templates/partials/nav.html:19
+msgid "Log out"
+msgstr "로그아웃"
+
+#: templates/partials/nav.html:21
+msgid "Log in"
+msgstr "로그인"
+
+#: templates/partials/nav.html:22
+msgid "Sign up"
+msgstr "가입"
+
+#: templates/rooms/room_detail.html:31
+msgid "Save to Favourites"
+msgstr "목록 저장"
 
 #: templates/rooms/room_list.html:26
 #, python-format
