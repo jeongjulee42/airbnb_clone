@@ -17,6 +17,7 @@ charset-normalizer==2.1.1 ; python_full_version >= '3.6.0'
 django-countries==7.3.2
 django-dotenv==1.4.2
 django-seed==0.2.2
+psycopg2==2.8.4
 django==4.1.1 ; python_version >= '3.8'
 faker==15.0.0 ; python_version >= '3.7'
 idna==3.4 ; python_version >= '3.5'
