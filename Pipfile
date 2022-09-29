@@ -9,6 +9,7 @@ django-countries = "*"
 django-seed = "==0.2.2"
 django-dotenv = "*"
 requests = "*"
+pipenv-to-requirements = "*"
 
 [dev-packages]
 django = "*"
